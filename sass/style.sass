@@ -1,0 +1,438 @@
+@import "normalize.scss"
+@import "reset.scss"
+@font-face 
+	font-family: "Avenir" 
+	src: url(../fonts/Avenir-Medium.ttf)
+	font-weight: regular
+	font-style: normal
+	font-display: swap
+@font-face 
+	font-family: "Avenir-Light" 
+	src: url(../fonts/AvenirNextCyr-Thin.ttf)
+	font-weight: light
+	font-style: normal
+	font-display: swap
+@font-face 
+	font-family: "Avenir-Light-2" 
+	src: url(../fonts/AvenirNextCyr-Regular.ttf)
+	font-weight: regular
+	font-style: normal
+	font-display: swap
+@font-face 
+	font-family: "Nunito" 
+	src: url(../fonts/Nunito-Regular.ttf)
+	font-weight: regular
+	font-style: normal
+	font-display: swap
+@font-face 
+	font-family: "NunitoLight" 
+	src: url(../fonts/Nunito-Light.ttf)
+	font-weight: light
+	font-style: normal
+	font-display: swap
+@font-face 
+	font-family: "NunitoBold" 
+	src: url(../fonts/Nunito-ExtraBold.ttf)
+	font-weight: light
+	font-style: normal
+	font-display: swap
+html
+	font-family: "Avenir"
+	font-weight: medium
+
+*
+	box-sizing: border-box
+section
+	width: 100%
+	background-color: #2E383F
+.container
+	max-width: 1400px
+	margin: 0 auto
+	position: relative
+.main-section
+	position: relative
+	padding-top: 20px
+	min-height: 75px
+	&__nav-container
+		display: flex
+		flex-direction: row
+		justify-content: space-between
+		align-items: center
+
+.nav-menu
+	&__list-item
+		display: flex
+		margin: 0px 175px 0px 0px	
+		font-size: 20px
+		align-items: center
+		font-family: Avenir-Light
+		a
+			text-decoration: none
+			font-weight: bold
+			color: white
+	&__list
+		display: flex
+		font-size: 20px
+
+		&:last-child
+			margin-right: 0px
+		&__list-item 
+		font-size: 20px
+		margin-right: 10px
+.button
+	display: inline-flex
+	&__text
+		width: 155px
+		height: 48px
+		border-radius: 100px
+		border: none
+		background: #3C86D4
+.buttons-a
+	text-decoration: none
+	font-weight: bold
+	color: white
+.container-main
+	background-image: url("../img/BackgroundMain.svg")
+	min-height: 799px
+.left-wrapper
+	display: flex
+	flex-direction: column
+	width: 1050px
+	height: 370px
+	// margin-left: 100px
+	padding-top: 216px
+.title
+	margin-bottom: 15px
+	font-size: 96px
+	color: #F7C873
+.Card-img-bx
+	top: 549px
+	right: 267px
+	z-index: 5 
+	width: 415px
+	position: absolute
+
+.Tel-bx
+	z-index: 3
+	width: 250px
+	position: absolute
+	top: 286px
+	right: 80px
+.paragr-bx
+	line-height: 1.2em
+	font-size: 40px
+	color: #F8EEE2
+	font-family: Avenir-Light
+.secont-section
+	// display: inline-flex
+	min-height: 900px
+	min-width: 1200px
+	background-image: url("../img/BackgroundAllpages.svg")
+	&__titles
+		font-size: 40px
+		text-align: center
+		color: white
+		margin-bottom: 20px
+		padding-top: 5px
+	&__container-titles
+		width: 150px
+		height: 50px
+	&__detail-img
+		display: flex
+		width: 100%
+		// padding-left: 22px
+	&__detail-text p
+		width: 700px
+		font-size: 24px
+		color: #FFFFFF
+		margin-bottom: 52px
+		line-height: 1.4em
+
+.houseone
+	width: 690px
+	margin-right: 25px
+	margin-bottom: 10px
+.carone
+	display: flex
+	width: 690px
+	margin-bottom: 10px
+.datatext
+	font-size: 24px
+	margin-bottom: 18px
+	color: #FFFFFF
+	font-family: Avenir-Light
+.container-three
+	min-height: 900px
+.section-three
+	background-color: #2E383F
+	background-image: url("../img/BackgroundAllpages.svg")
+	background-position: center
+	&__members img
+		margin-right: 10px
+	&__members img:last-child
+		margin: 0
+	&__main-title
+		margin-bottom: 20px
+	&__members__info
+		display: flex
+		justify-content: center
+		font-size: 24px
+
+.imgpic
+	padding-left: 10px
+.titles
+	font-size: 48px
+	color: white
+	text-align: center
+	margin-bottom: 60px
+	padding-top: 58px
+.back-background
+	
+.members-fone
+	width: 1400px
+	height: 900px
+	border-radius: 2em
+	background-color: rgba(60, 134, 212,0.4)
+.section-three img
+	&__members
+	padding-left: 15px
+	width: 336px
+	margin-bottom: 35px
+.infomembers
+	color: white
+	line-height: 1.7em
+.titles-naumbers
+	display: flex
+	flex-direction: column
+.titles-mumbers
+	display: flex
+	justify-content: space-around
+	margin-bottom: 84px
+	font-size: 32px
+	color: white
+	margin-right: -40px
+.ptitle
+	color: #AAA6A1
+	font-size: 24px
+	text-align: center
+	font-family: Avenir-Light-2	
+.four-page
+	background-image: url("../img/BackgroundMain.svg")
+	&__background
+		background-image: url("../img/BackgroundAllpages.svg")
+		background-position: center
+	// background-image: 
+.container-four
+	min-height: 773px
+	position: relative
+	&__four-title
+		width: 1170px
+		height: 348px
+		padding-left: 181px
+		text-align: left
+		font-size: 36px
+		line-height: 1.4em
+		&__p-fouttitle
+			width: 1000px
+			color: white
+			font-family: Avenir-Light-2
+	&__icons-b
+		position: absolute
+		left: 548px
+		top: 380px
+.titles-about-us
+	font-size: 48px
+	color: white
+	text-align: center
+	margin-bottom: 30px
+	padding-top: 30px
+.pattern-section
+	width: 1400px
+	height: 400px
+	&__background-little
+		position: absolute
+		left: 50px
+		width: 1300px
+		height: 335px
+		border-radius: 30px
+		background-color: rgba(7, 97, 125,1)
+		background-image: url("../icons/Evolving the look.svg")
+		background-repeat: repeat-x
+		background-size: 400px
+	&__images
+		display: inline-flex
+		margin-right: 71px
+	&__text-pat
+		display: flex
+		justify-content: space-evenly
+		font-size: 24px
+		font-family: Avenir-Light-2
+
+.container-background
+	background-image: url("../img/BackgroundAllpages.svg")
+	background-position: center
+	background-color: #2E383F
+.titles-patten
+	font-size: 40px
+	color: white
+	text-align: center
+	margin-bottom: 15px
+	padding-top: 10px
+.images-box-pat
+	margin-right: 84px
+	width: 200px
+	margin-bottom: 10px
+	&__last
+		width: 200px
+		margin-right: 0px
+		margin-bottom: 10px
+	&__2
+		margin-right: 120px
+		width: 200px
+		margin-bottom: 10px
+	&__3
+		width: 200px
+		margin-right: 119px
+		margin-bottom: 10px
+.five-section
+	background-image: url("../img/BackgroundAllpages.svg")
+	background-position: center
+	background-color: rgba(7, 97, 125,0.9)
+	&__container-section
+		min-height: 700px
+		padding-left: 50px
+	&__background-five
+		width: 1200px
+		height: 300px
+		border-radius: 2em
+		position: absolute
+		left: 100px
+		padding: 0px 0px 0px 0px
+		font-family: Nunito
+		&__titlesuser
+			font-size: 24px
+			color: white
+	&__texting
+		font-family: Nunito
+		color: white
+		font-size: 20px
+		&__faq
+			padding-top: 50px
+			font-size: 40px
+			margin-bottom: 10px
+			&__pinfofaq
+				margin-bottom: 30px
+				line-height: 1.5em
+.accordion-button
+	background-color: rgba(7, 97, 125,0.01)
+	padding: 2rem 4.25rem
+	border-top-left-radius: calc(2.25rem)
+	border-top-right-radius: calc(2.25rem)
+.accordion-button
+	border-top-left-radius: 40px
+	border-top-right-radius: 40px
+.accordion-button:not(.collapsed)
+	background-color: rgba(247, 200, 115,0.8)
+	color: black
+	box-shadow: none
+	// border-top-left-radius: 40px
+	// border-top-right-radius: 40px
+.accordion-item
+	border: 0px solid rgba(0,0,0,.125)
+	background: none
+.accordion-button:focus
+	border-color: none
+	box-shadow: none
+.accordion-body
+	padding: 1rem 4.25rem
+	min-height: 85px
+	background: rgba(247, 200, 115,0.8)
+	border-bottom-left-radius: 40px
+	border-bottom-right-radius: 40px
+.acordionradius
+	border-radius: 2em
+.blocksearch
+	background: rgba(247, 200, 115,0.8)
+	background-image: url("../img/BackgroundAllpages.svg")
+	background-position: center
+	&__container-input
+		display: inline-flex
+		border-radius: 15px
+	&__container-search
+		min-height: 500px
+		&__infos
+			display: flex
+			flex-direction: column
+			align-items: center
+.titles-about-us-2
+	font-size: 48px
+	color: black
+	text-align: center
+	margin-bottom: 15px
+	padding-top: 120px
+	font-family: Nunito
+.nunitolight
+	font-family: NunitoLight
+	font-size: 24px
+	margin-bottom: 140px
+	color: #5E5955
+.button-search
+	position: absolute
+	left: 825px
+	width: 160px
+	height: 60px
+	border-color: #2E383F
+	border-bottom-right-radius: 15px
+	border-top-right-radius: 15px
+	background-color: #2E383F
+	font-size: 20px
+	border-style: none
+	color: #F7C873
+
+.searching
+	width: 545px
+	height: 60px
+	border-radius: 15px
+	padding-left: 30px
+	margin-bottom: 10px
+
+.accordion-button:first-of-type.accordion-button
+	border-top-left-radius: 40px
+	border-top-right-radius: 40px
+.nunitolight2
+	font-family: NunitoLight
+	font-size: 14px
+	&__a
+		font-family: NunitoBold
+.content-stroke
+	display: flex
+	height: 100px
+	justify-content: center
+	background-image: url("../img/BackgroundAllpages.svg")
+	background-position: center
+	&__icons-box
+		font-size: 20px
+		color: white
+	&__iconsp
+		margin-bottom: 5px
+.nav-menu__list2
+	display: flex
+	font-size: 20px
+	padding-right: 100px
+.icons
+	position: absolute
+	top: 31px
+	right: 66px
+.content-maps
+	background-image: url("../img/BackgroundAllpages.svg")
+	background-position: center
+.down
+	background-image: url("../img/BackgroundAllpages.svg")
+	background-position: center
+	height: 90px
+	&__p
+		position: absolute
+		left: 600px
+		top: 40px
+		font-size: 20px
+		color: white
